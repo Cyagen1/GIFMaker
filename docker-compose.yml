@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  gifmaker:
+    build:
+      context: .
+      dockerfile: GIFMaker/Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://*:8080
+      - ASPNETCORE_ENVIRONMENT=Development
+      - GifGeneratorSettings__AnimationDelay=25
+      - FileStorageGifRepositorySettings__FolderPath="C:/Gifs"
+    ports:
+      - "8080:8080"

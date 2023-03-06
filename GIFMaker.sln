@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GIFMaker", "GIFMaker\GIFMaker.csproj", "{DEDFECCF-0F3A-4964-B1BC-4813DD324261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIFMaker.Tests", "GIFMaker.Tests\GIFMaker.Tests.csproj", "{881F1F8E-3BE0-431D-931A-8F2698EA0528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDFECCF-0F3A-4964-B1BC-4813DD324261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDFECCF-0F3A-4964-B1BC-4813DD324261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDFECCF-0F3A-4964-B1BC-4813DD324261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDFECCF-0F3A-4964-B1BC-4813DD324261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881F1F8E-3BE0-431D-931A-8F2698EA0528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881F1F8E-3BE0-431D-931A-8F2698EA0528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881F1F8E-3BE0-431D-931A-8F2698EA0528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881F1F8E-3BE0-431D-931A-8F2698EA0528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E921E8DC-8B3A-44A2-AFC8-CF51C20C3B6C}
+	EndGlobalSection
+EndGlobal
